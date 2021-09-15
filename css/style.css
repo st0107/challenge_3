@@ -241,6 +241,8 @@ nav::after{
     /* border: 1px solid blue; */
     text-align: center;
     padding: 2rem;
+    height: 105%;
+    margin-top: -10px;
 }
 .box2{
     background-color:rgb(238, 20, 4);
