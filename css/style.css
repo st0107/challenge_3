@@ -357,7 +357,7 @@ hr{
 .reach-us p{
     color: white;
     float: left;
-    padding: 1.6rem;
+    padding: .9rem 0.5rem;
 }
 .reach-us a{
     width: 40%;
@@ -367,7 +367,7 @@ hr{
     text-decoration: none;
     border: 3px solid oldlace;
     padding: .5rem;
-    margin: .9%;
+    margin: 0% .9%;
     letter-spacing: 4px;
 }
 .reach-us a:hover{
