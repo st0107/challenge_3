@@ -485,3 +485,83 @@ input:focus,textarea:focus{
     box-shadow: 4px 4px 20px rgba(128, 128, 128, 0.358);
     background-color: #f14d5b ;
 }
+
+/* ########################## media quries #####################  */
+
+@media (min-width:331px) and ((max-width:960px) or (max-height:560px)) 
+{
+    :root{
+        font-size: 8px;
+    }
+    .header{
+        height: 60vh;
+    }
+    
+    .row1,.row2{
+        display: block;
+        padding-bottom: 1rem;
+        width: 100%;
+        /* margin: 10rem; */
+        height: auto;
+    }
+    .text{
+        font-size: 1rem;
+    }
+    .row1 .image,.row2 .text{
+        float: none;
+        width: 100%;
+    }
+    .row2 .image,.row1 .text{
+        float: none;
+        width: 100%;
+    }
+    .section1{
+        background-color: rgb(172, 171, 171);
+        height: auto;
+    }
+    .box{
+        display: block;
+        width:100%;
+        margin-bottom: 2rem;
+        height: auto;
+    }
+    .tick-points{
+        display: block;
+        width: 100%;
+    }
+    .reach-us{
+        height: auto;
+    }
+    .reach-us p,.reach-us a{
+        width: 95%;
+        text-align: center;
+        float: left;
+    }
+    .reach-us::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .address{
+        float: none;
+        width: 100%;
+        display: block; 
+        margin-bottom: 4rem;
+    }
+    .contact-form{
+        float: none;
+        width: 100%;
+        display: block;
+    }
+}
+
+
+@media (max-width:330px)
+{
+    :root{
+        font-size: 6px;
+    }
+    .header{
+        height: 40vh;
+    }
+}
